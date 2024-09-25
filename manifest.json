@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Fully Fullscreen",
+  "version": "1.0",
+  "description": "Ensure that firefox is always in fullscreen mode",
+  "background": {
+    "scripts": [
+      "main.js"
+    ],
+    "persistent": false,
+    "type": "module"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fully-fullscreen@example.org"
+    }
+  }
+}
